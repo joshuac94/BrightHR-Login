@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		42A373641FB476FB0019151B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373631FB476FB0019151B /* AppDelegate.swift */; };
-		42A373661FB476FB0019151B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373651FB476FB0019151B /* ViewController.swift */; };
 		42A373691FB476FB0019151B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A373671FB476FB0019151B /* Main.storyboard */; };
 		42A3736B1FB476FB0019151B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A3736A1FB476FB0019151B /* Assets.xcassets */; };
 		42A3736E1FB476FB0019151B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A3736C1FB476FB0019151B /* LaunchScreen.storyboard */; };
 		42A373791FB476FB0019151B /* BrightHR_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373781FB476FB0019151B /* BrightHR_LoginTests.swift */; };
+		42A373841FB4784D0019151B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373831FB4784D0019151B /* LoginVC.swift */; };
+		42A373861FB47F0E0019151B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373851FB47F0E0019151B /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		42A373601FB476FB0019151B /* BrightHR-Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrightHR-Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A373631FB476FB0019151B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42A373651FB476FB0019151B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42A373681FB476FB0019151B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42A3736A1FB476FB0019151B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42A3736D1FB476FB0019151B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		42A373741FB476FB0019151B /* BrightHR-LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BrightHR-LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A373781FB476FB0019151B /* BrightHR_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightHR_LoginTests.swift; sourceTree = "<group>"; };
 		42A3737A1FB476FB0019151B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A373831FB4784D0019151B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		42A373851FB47F0E0019151B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				42A373631FB476FB0019151B /* AppDelegate.swift */,
-				42A373651FB476FB0019151B /* ViewController.swift */,
 				42A373671FB476FB0019151B /* Main.storyboard */,
 				42A3736A1FB476FB0019151B /* Assets.xcassets */,
 				42A3736C1FB476FB0019151B /* LaunchScreen.storyboard */,
 				42A3736F1FB476FB0019151B /* Info.plist */,
+				42A373831FB4784D0019151B /* LoginVC.swift */,
+				42A373851FB47F0E0019151B /* CustomTextField.swift */,
 			);
 			path = "BrightHR-Login";
 			sourceTree = "<group>";
@@ -199,8 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42A373661FB476FB0019151B /* ViewController.swift in Sources */,
+				42A373841FB4784D0019151B /* LoginVC.swift in Sources */,
 				42A373641FB476FB0019151B /* AppDelegate.swift in Sources */,
+				42A373861FB47F0E0019151B /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 342JHW2A2U;
 				INFOPLIST_FILE = "BrightHR-Login/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joshcolley.com.BrightHR-Login";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 342JHW2A2U;
 				INFOPLIST_FILE = "BrightHR-Login/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joshcolley.com.BrightHR-Login";
 				PRODUCT_NAME = "$(TARGET_NAME)";
