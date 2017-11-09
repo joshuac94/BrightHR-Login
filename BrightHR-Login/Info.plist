@@ -43,5 +43,19 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+    
+    <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSExceptionDomains</key>
+            <dict>
+                <key>www.brighthr-api-uat.azurewebsites.net</key>
+                <dict>
+                    <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+            </dict>
+        </dict>
+    
+    
 </dict>
 </plist>

@@ -66,7 +66,6 @@ class CustomTextField: UITextField {
         }
     }
     
-    
     @objc func showPassword() {
         self.isSecureTextEntry = self.passwordVisible
         self.passwordVisible = !self.passwordVisible

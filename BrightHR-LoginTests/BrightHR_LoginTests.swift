@@ -11,6 +11,15 @@ import XCTest
 
 class BrightHR_LoginTests: XCTestCase {
     
+    let viewController:LoginVC = LoginVC()
     
+    
+    
+    
+    func testDataRequest() {
+        let url = URL(string: "http://joshcolley.com")!
+        
+        XCTAssertNil(self.viewController.dataRequest(url))
+    }
     
 }

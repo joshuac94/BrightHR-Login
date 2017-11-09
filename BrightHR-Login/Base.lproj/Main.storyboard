@@ -20,37 +20,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="UZ2-Ik-gXj">
-                                <rect key="frame" x="105" y="68" width="165" height="45"/>
+                                <rect key="frame" x="105" y="73" width="165" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="4U7-IQ-mCE"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pzh-Xi-1CM" customClass="CustomTextField" customModule="BrightHR_Login" customModuleProvider="target">
-                                <rect key="frame" x="32" y="169" width="310" height="40"/>
-                                <color key="tintColor" red="0.98693568813026289" green="0.98934936333849599" blue="1" alpha="0.80089128521126762" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" keyboardAppearance="alert" textContentType="email"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowBottomLine" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="placeholderUsed" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C7O-L2-d8G" customClass="CustomTextField" customModule="BrightHR_Login" customModuleProvider="target">
-                                <rect key="frame" x="32" y="235" width="310" height="40"/>
-                                <color key="tintColor" red="0.98693568809999999" green="0.98934936330000001" blue="1" alpha="0.80089128519999997" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="3ol-7k-Z0a"/>
-                                </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" secureTextEntry="YES" textContentType="password"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowBottomLine" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="placeholderUsed" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="eye"/>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQH-YO-FjT">
                                 <rect key="frame" x="100" y="306" width="175" height="45"/>
                                 <constraints>
@@ -64,29 +38,88 @@
                                     <action selector="loginButton_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nQ0-Pc-AM4"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pzh-Xi-1CM" customClass="CustomTextField" customModule="BrightHR_Login" customModuleProvider="target">
+                                <rect key="frame" x="32" y="169" width="310" height="40"/>
+                                <color key="tintColor" red="0.98693568809999999" green="0.98934936330000001" blue="1" alpha="0.60128741196056334" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" keyboardAppearance="alert" textContentType="email"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowBottomLine" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="placeholderUsed" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C7O-L2-d8G" customClass="CustomTextField" customModule="BrightHR_Login" customModuleProvider="target">
+                                <rect key="frame" x="32" y="235" width="310" height="40"/>
+                                <color key="tintColor" red="0.98693568809999999" green="0.98934936330000001" blue="1" alpha="0.60128741196056334" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3ol-7k-Z0a"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" secureTextEntry="YES" textContentType="password"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowBottomLine" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="placeholderUsed" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="eye"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WC-3d-oh2">
+                                <rect key="frame" x="32" y="390" width="310" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9WC-3d-oh2" secondAttribute="height" multiplier="310:47" id="tcX-Ms-Rd7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="pJJ-iL-lc7">
+                                <rect key="frame" x="177" y="318" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pJJ-iL-lc7" secondAttribute="height" multiplier="1:1" id="nQ2-p0-d5c"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2y-Mn-dEF">
+                                <rect key="frame" x="32" y="626" width="310" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47711658099999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="UZ2-Ik-gXj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="1Qx-vH-0hT"/>
+                            <constraint firstItem="UZ2-Ik-gXj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="1Qx-vH-0hT"/>
+                            <constraint firstItem="9WC-3d-oh2" firstAttribute="top" secondItem="pJJ-iL-lc7" secondAttribute="bottom" constant="52" id="49B-8X-XyZ"/>
                             <constraint firstItem="C7O-L2-d8G" firstAttribute="top" secondItem="pzh-Xi-1CM" secondAttribute="bottom" constant="26" id="4Y2-pr-Qcq"/>
                             <constraint firstItem="C7O-L2-d8G" firstAttribute="leading" secondItem="pzh-Xi-1CM" secondAttribute="leading" id="DTK-fA-TR2"/>
-                            <constraint firstItem="pzh-Xi-1CM" firstAttribute="top" secondItem="UZ2-Ik-gXj" secondAttribute="bottom" constant="56" id="Fc9-pV-mqV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pJJ-iL-lc7" secondAttribute="trailing" constant="178" id="EoF-Gu-K7g"/>
+                            <constraint firstItem="pzh-Xi-1CM" firstAttribute="top" secondItem="UZ2-Ik-gXj" secondAttribute="bottom" constant="51" id="Fc9-pV-mqV"/>
                             <constraint firstItem="pQH-YO-FjT" firstAttribute="top" secondItem="C7O-L2-d8G" secondAttribute="bottom" constant="31" id="HQL-4a-7xJ"/>
                             <constraint firstItem="UZ2-Ik-gXj" firstAttribute="centerX" secondItem="pzh-Xi-1CM" secondAttribute="centerX" id="HpG-lF-zc3"/>
+                            <constraint firstItem="pJJ-iL-lc7" firstAttribute="top" secondItem="C7O-L2-d8G" secondAttribute="bottom" constant="43" id="TCC-Ht-Acz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9WC-3d-oh2" secondAttribute="bottom" constant="230" id="Zez-GT-4I2"/>
+                            <constraint firstItem="pJJ-iL-lc7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="177" id="cyW-TG-mZH"/>
                             <constraint firstItem="UZ2-Ik-gXj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="dSN-WN-RkC"/>
                             <constraint firstItem="C7O-L2-d8G" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="235" id="jhh-RG-88N"/>
                             <constraint firstItem="UZ2-Ik-gXj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lDb-wp-4kO"/>
                             <constraint firstItem="UZ2-Ik-gXj" firstAttribute="centerX" secondItem="C7O-L2-d8G" secondAttribute="centerX" id="na6-Dh-BWi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9WC-3d-oh2" secondAttribute="trailing" constant="33" id="ng0-cO-qtW"/>
                             <constraint firstItem="C7O-L2-d8G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="nnh-M8-ahF"/>
+                            <constraint firstItem="9WC-3d-oh2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="opl-4o-qLh"/>
+                            <constraint firstItem="9WC-3d-oh2" firstAttribute="top" secondItem="pQH-YO-FjT" secondAttribute="bottom" constant="39" id="wAP-2b-Uce"/>
                             <constraint firstItem="pQH-YO-FjT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="yDE-AB-hpL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pQH-YO-FjT" secondAttribute="trailing" constant="100" id="yQC-2G-ICA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="pJJ-iL-lc7" id="Hy9-5J-9f9"/>
                         <outlet property="emailField" destination="pzh-Xi-1CM" id="UzX-2O-4dB"/>
                         <outlet property="loginButton" destination="pQH-YO-FjT" id="Z25-df-Qcp"/>
                         <outlet property="passwordField" destination="C7O-L2-d8G" id="ZLv-cU-hnP"/>
+                        <outlet property="responseLabel" destination="9WC-3d-oh2" id="I7i-E3-3A9"/>
+                        <outlet property="timezoneLabel" destination="b2y-Mn-dEF" id="gvD-g6-eXx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
