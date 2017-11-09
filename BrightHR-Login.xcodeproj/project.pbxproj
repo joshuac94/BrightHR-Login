@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A373641FB476FB0019151B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373631FB476FB0019151B /* AppDelegate.swift */; };
+		42A373661FB476FB0019151B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373651FB476FB0019151B /* ViewController.swift */; };
+		42A373691FB476FB0019151B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A373671FB476FB0019151B /* Main.storyboard */; };
+		42A3736B1FB476FB0019151B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A3736A1FB476FB0019151B /* Assets.xcassets */; };
+		42A3736E1FB476FB0019151B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A3736C1FB476FB0019151B /* LaunchScreen.storyboard */; };
+		42A373791FB476FB0019151B /* BrightHR_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373781FB476FB0019151B /* BrightHR_LoginTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A373751FB476FB0019151B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A373581FB476FA0019151B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A3735F1FB476FB0019151B;
+			remoteInfo = "BrightHR-Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42A373601FB476FB0019151B /* BrightHR-Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrightHR-Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A373631FB476FB0019151B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42A373651FB476FB0019151B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42A373681FB476FB0019151B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42A3736A1FB476FB0019151B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42A3736D1FB476FB0019151B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42A3736F1FB476FB0019151B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A373741FB476FB0019151B /* BrightHR-LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BrightHR-LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A373781FB476FB0019151B /* BrightHR_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightHR_LoginTests.swift; sourceTree = "<group>"; };
+		42A3737A1FB476FB0019151B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A3735D1FB476FB0019151B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A373711FB476FB0019151B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A373571FB476FA0019151B = {
+			isa = PBXGroup;
+			children = (
+				42A373621FB476FB0019151B /* BrightHR-Login */,
+				42A373771FB476FB0019151B /* BrightHR-LoginTests */,
+				42A373611FB476FB0019151B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42A373611FB476FB0019151B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A373601FB476FB0019151B /* BrightHR-Login.app */,
+				42A373741FB476FB0019151B /* BrightHR-LoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A373621FB476FB0019151B /* BrightHR-Login */ = {
+			isa = PBXGroup;
+			children = (
+				42A373631FB476FB0019151B /* AppDelegate.swift */,
+				42A373651FB476FB0019151B /* ViewController.swift */,
+				42A373671FB476FB0019151B /* Main.storyboard */,
+				42A3736A1FB476FB0019151B /* Assets.xcassets */,
+				42A3736C1FB476FB0019151B /* LaunchScreen.storyboard */,
+				42A3736F1FB476FB0019151B /* Info.plist */,
+			);
+			path = "BrightHR-Login";
+			sourceTree = "<group>";
+		};
+		42A373771FB476FB0019151B /* BrightHR-LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				42A373781FB476FB0019151B /* BrightHR_LoginTests.swift */,
+				42A3737A1FB476FB0019151B /* Info.plist */,
+			);
+			path = "BrightHR-LoginTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A3735F1FB476FB0019151B /* BrightHR-Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A3737D1FB476FB0019151B /* Build configuration list for PBXNativeTarget "BrightHR-Login" */;
+			buildPhases = (
+				42A3735C1FB476FB0019151B /* Sources */,
+				42A3735D1FB476FB0019151B /* Frameworks */,
+				42A3735E1FB476FB0019151B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BrightHR-Login";
+			productName = "BrightHR-Login";
+			productReference = 42A373601FB476FB0019151B /* BrightHR-Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42A373731FB476FB0019151B /* BrightHR-LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A373801FB476FB0019151B /* Build configuration list for PBXNativeTarget "BrightHR-LoginTests" */;
+			buildPhases = (
+				42A373701FB476FB0019151B /* Sources */,
+				42A373711FB476FB0019151B /* Frameworks */,
+				42A373721FB476FB0019151B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A373761FB476FB0019151B /* PBXTargetDependency */,
+			);
+			name = "BrightHR-LoginTests";
+			productName = "BrightHR-LoginTests";
+			productReference = 42A373741FB476FB0019151B /* BrightHR-LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A373581FB476FA0019151B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Joshua Colley";
+				TargetAttributes = {
+					42A3735F1FB476FB0019151B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					42A373731FB476FB0019151B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42A3735F1FB476FB0019151B;
+					};
+				};
+			};
+			buildConfigurationList = 42A3735B1FB476FA0019151B /* Build configuration list for PBXProject "BrightHR-Login" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A373571FB476FA0019151B;
+			productRefGroup = 42A373611FB476FB0019151B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A3735F1FB476FB0019151B /* BrightHR-Login */,
+				42A373731FB476FB0019151B /* BrightHR-LoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A3735E1FB476FB0019151B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A3736E1FB476FB0019151B /* LaunchScreen.storyboard in Resources */,
+				42A3736B1FB476FB0019151B /* Assets.xcassets in Resources */,
+				42A373691FB476FB0019151B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A373721FB476FB0019151B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A3735C1FB476FB0019151B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A373661FB476FB0019151B /* ViewController.swift in Sources */,
+				42A373641FB476FB0019151B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A373701FB476FB0019151B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A373791FB476FB0019151B /* BrightHR_LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A373761FB476FB0019151B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A3735F1FB476FB0019151B /* BrightHR-Login */;
+			targetProxy = 42A373751FB476FB0019151B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42A373671FB476FB0019151B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A373681FB476FB0019151B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42A3736C1FB476FB0019151B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A3736D1FB476FB0019151B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42A3737B1FB476FB0019151B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42A3737C1FB476FB0019151B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A3737E1FB476FB0019151B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 342JHW2A2U;
+				INFOPLIST_FILE = "BrightHR-Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshcolley.com.BrightHR-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42A3737F1FB476FB0019151B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 342JHW2A2U;
+				INFOPLIST_FILE = "BrightHR-Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshcolley.com.BrightHR-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42A373811FB476FB0019151B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 342JHW2A2U;
+				INFOPLIST_FILE = "BrightHR-LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshcolley.com.BrightHR-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightHR-Login.app/BrightHR-Login";
+			};
+			name = Debug;
+		};
+		42A373821FB476FB0019151B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 342JHW2A2U;
+				INFOPLIST_FILE = "BrightHR-LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshcolley.com.BrightHR-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightHR-Login.app/BrightHR-Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A3735B1FB476FA0019151B /* Build configuration list for PBXProject "BrightHR-Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A3737B1FB476FB0019151B /* Debug */,
+				42A3737C1FB476FB0019151B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A3737D1FB476FB0019151B /* Build configuration list for PBXNativeTarget "BrightHR-Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A3737E1FB476FB0019151B /* Debug */,
+				42A3737F1FB476FB0019151B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A373801FB476FB0019151B /* Build configuration list for PBXNativeTarget "BrightHR-LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A373811FB476FB0019151B /* Debug */,
+				42A373821FB476FB0019151B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42A373581FB476FA0019151B /* Project object */;
+}
