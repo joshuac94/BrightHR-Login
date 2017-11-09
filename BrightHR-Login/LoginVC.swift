@@ -41,16 +41,15 @@ class LoginVC: UIViewController, UITextFieldDelegate {
         if !isDisabled {
             self.loginButton.setTitle("", for: .normal)
             self.activityIndicator.startAnimating()
-            print(self.dataRequest(self.serverURL) as Any)
+            self.dataRequest(url: self.serverURL, email: self.emailField.text!, password: self.passwordField.text!)
         }
     }
     
     
-    func dataRequest(_ url:URL) -> Error?{
+    func dataRequest(url:URL, email:String, password:String) {
         var recievedResponse: HTTPURLResponse!
-        var recievedError: Error?
         
-        let parameterString = "username=\(self.emailField.text!)&password=\(self.passwordField.text!)"
+        let parameterString = "username=\(email)&password=\(password)"
         let session = URLSession.shared
         let request = NSMutableURLRequest(url: url)
         
@@ -66,13 +65,9 @@ class LoginVC: UIViewController, UITextFieldDelegate {
                     self.loginButton.setTitle("Login", for: .normal)
                     self.handleResponse(response: recievedResponse)
                 }
-            } else {
-                recievedError = error
             }
         }
         task.resume()
-        
-        return recievedError
     }
     
     
@@ -127,9 +122,6 @@ class LoginVC: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
     }
     
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        //hideKeyboard()
-    }
     func textFieldDidEndEditing(_ textField: UITextField) {
         self.hideKeyboard()
         self.buttonIsDisabled()

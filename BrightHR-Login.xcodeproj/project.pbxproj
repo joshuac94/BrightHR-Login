@@ -11,7 +11,6 @@
 		42A373691FB476FB0019151B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A373671FB476FB0019151B /* Main.storyboard */; };
 		42A3736B1FB476FB0019151B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A3736A1FB476FB0019151B /* Assets.xcassets */; };
 		42A3736E1FB476FB0019151B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A3736C1FB476FB0019151B /* LaunchScreen.storyboard */; };
-		42A373791FB476FB0019151B /* BrightHR_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373781FB476FB0019151B /* BrightHR_LoginTests.swift */; };
 		42A373841FB4784D0019151B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373831FB4784D0019151B /* LoginVC.swift */; };
 		42A373861FB47F0E0019151B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A373851FB47F0E0019151B /* CustomTextField.swift */; };
 		42A373891FB500BD0019151B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A373881FB500BD0019151B /* Default-568h@2x.png */; };
@@ -35,8 +34,6 @@
 		42A3736D1FB476FB0019151B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42A3736F1FB476FB0019151B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42A373741FB476FB0019151B /* BrightHR-LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BrightHR-LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42A373781FB476FB0019151B /* BrightHR_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightHR_LoginTests.swift; sourceTree = "<group>"; };
-		42A3737A1FB476FB0019151B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42A373831FB4784D0019151B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		42A373851FB47F0E0019151B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		42A373881FB500BD0019151B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -65,7 +62,6 @@
 			children = (
 				42A373881FB500BD0019151B /* Default-568h@2x.png */,
 				42A373621FB476FB0019151B /* BrightHR-Login */,
-				42A373771FB476FB0019151B /* BrightHR-LoginTests */,
 				42A373611FB476FB0019151B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,15 +87,6 @@
 				42A373851FB47F0E0019151B /* CustomTextField.swift */,
 			);
 			path = "BrightHR-Login";
-			sourceTree = "<group>";
-		};
-		42A373771FB476FB0019151B /* BrightHR-LoginTests */ = {
-			isa = PBXGroup;
-			children = (
-				42A373781FB476FB0019151B /* BrightHR_LoginTests.swift */,
-				42A3737A1FB476FB0019151B /* Info.plist */,
-			);
-			path = "BrightHR-LoginTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42A373791FB476FB0019151B /* BrightHR_LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
